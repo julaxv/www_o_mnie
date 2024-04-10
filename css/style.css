@@ -1,1 +1,43 @@
+html {
+    box-sizing: border-box;
+}
 
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+h1{
+    color:rgb(107, 6, 107);
+    text-align: center;
+}
+
+body {
+    background-color: plum;
+}
+a:link {
+    color: rgb(0, 17, 205);
+}
+
+/* Odwiedzony link */
+
+a:visited {
+    color: yellow;
+}
+
+/* Link po najechaniu kursorem */
+
+a:hover {
+    color: rgb(192, 0, 51);
+}
+
+li {
+    text-align: center;
+}
+
+.p {
+    border: 2px solid black;
+    padding: 10px;
+    background-color:rgb(157, 59, 157)
+}
