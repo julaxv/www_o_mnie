@@ -8,6 +8,11 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
 h1{
     color:rgb(107, 6, 107);
     text-align: center;
